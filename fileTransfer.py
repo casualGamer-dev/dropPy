@@ -7,7 +7,7 @@ class Transfer (object):
         with open(fileFrom,"rb") as e:
             dbx.files_upload(e.read(),fileto)
 def main():
-    accesToken="N4oQ1MwtTuoAAAAAAAAAAb4i1_cqGS1ZlRvwplaU3ycyyWWEwtCQo-wLmIfUNGI4"
+    accesToken="N4oQ1MwtTuoAAAAAAAAAAb4i1_cqGS1ZlRvwplaU3ycyyWWEwtCQeemIfUNGI4"
     transfer=Transfer(accesToken)
     filefrom="textswapper.py"
     fileName=input("file name")
